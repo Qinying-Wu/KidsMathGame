@@ -1,0 +1,14 @@
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\bin\Debug\netstandard2.0\ArithmeticsRain.deps.json
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\bin\Debug\netstandard2.0\ArithmeticsRain.dll
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\bin\Debug\netstandard2.0\ref\ArithmeticsRain.dll
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\bin\Debug\netstandard2.0\ArithmeticsRain.pdb
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\ArithmeticsRain.csprojAssemblyReference.cache
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\ArithmeticsRain.csproj.CoreCompileInputs.cache
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\ArithmeticsRain.AssemblyInfoInputs.cache
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\ArithmeticsRain.AssemblyInfo.cs
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\ArithmeticsRain.dll
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\ref\ArithmeticsRain.dll
+C:\Users\Jessica Wu\source\repos\KidsMathGame\ArithmeticsRain\ArithmeticsRain\obj\Debug\netstandard2.0\ArithmeticsRain.pdb
