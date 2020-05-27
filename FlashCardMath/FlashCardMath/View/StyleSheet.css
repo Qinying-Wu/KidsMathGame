@@ -1,0 +1,22 @@
+﻿
+.page{
+    background-color:lightcyan;
+}
+.title{
+    font-family:Consolas;
+    font-weight:bold;
+    font-stretch:expanded;
+    font-size:60;
+    color:cadetblue;
+    background-color:lightcyan;
+    align-content:center;
+    text-align:center;
+}
+
+.button {
+    font-family:Consolas;
+    font-size:36;
+    color:darkcyan;
+    background-color:azure;
+    border:5px dotted darkcyan;
+}

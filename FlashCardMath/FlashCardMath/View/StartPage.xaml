@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:vm="clr-namespace:FlashCardMath.ViewModel"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             StyleClass="page"
+             x:Class="FlashCardMath.StartPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="../View/StyleSheet.css"></StyleSheet>
+    </ContentPage.Resources>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label StyleClass="title">Flash Card Math</Label>
+        <Image></Image>
+        <Button StyleClass="button" Text="Instructions"></Button>
+        <Button StyleClass="button" Text="Start Game"  Clicked="Game_Button_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             
+             x:Class="FlashCardMath.View.GamePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ContentView BackgroundColor="LightCoral" HeightRequest="400">
+                <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" FontSize="Header" TextColor="White" Text="{Binding CurrentFC.FirstOperand, Mode=OneWay}"></Label>
+                    <Label Grid.Column="1" FontSize="Header" Text="{Binding CurrentFC.OperatorSymbol, Mode=OneWay}"></Label>
+                    <Label Grid.Column="2" FontSize="Header" TextColor="White" Text="{Binding CurrentFC.SecondOperand, Mode=OneWay}"></Label>
+                    <Label Grid.Column="3" FontSize="Header">=</Label>
+                    <Label Grid.Column="4" FontSize="Header" Text="{Binding InputAnswer, Mode=OneWay}"></Label>
+                </Grid>
+               
+            </ContentView>
+            <Button BackgroundColor="PowderBlue" TextColor="SlateGray" CornerRadius="3" Text="Skip Current Card" Clicked="Skip_Button_Clicked"></Button>
+            <Entry x:Name="numInput" Text="{Binding InputAnswer, Mode=OneWayToSource}" Keyboard="Numeric" ClearButtonVisibility="WhileEditing"/>
+            <!--<Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Text="1" />
+                <Button Grid.Row="0" Grid.Column="1" Text="2"/>
+                <Button Grid.Row="0" Grid.Column="2" Text="3"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="4"/>
+                <Button Grid.Row="1" Grid.Column="1" Text="5"/>
+                <Button Grid.Row="1" Grid.Column="2" Text="6"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="7"/>
+                <Button Grid.Row="2" Grid.Column="1" Text="8"/>
+                <Button Grid.Row="2" Grid.Column="2" Text="9"/>
+                <Button Grid.Row="3" Grid.Column="1" Text="0"/>
+                <Button Grid.RowSpan="4" Grid.Column="3" Text="Enter"/>
+            </Grid>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
