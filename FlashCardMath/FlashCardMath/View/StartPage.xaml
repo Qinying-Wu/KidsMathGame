@@ -11,10 +11,23 @@
         <StyleSheet Source="../View/StyleSheet.css"></StyleSheet>
     </ContentPage.Resources>
     <StackLayout>
+        <ContentView IsVisible="{Binding IsReadingInstructions, Mode=OneWay}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Text="Welcome to the Flash Card Math Game!\n"></Label>
+                <Button Grid.Row="1" HorizontalOptions="End" Text="close" Clicked="Instruction_Button_Clicked"/>
+            </Grid>
+
+
+
+        </ContentView>
         <!-- Place new controls here -->
         <Label StyleClass="title">Flash Card Math</Label>
         <Image></Image>
-        <Button StyleClass="button" Text="Instructions"></Button>
+        <Button StyleClass="button" Text="Instructions" Clicked="Instruction_Button_Clicked"/>
         <Button StyleClass="button" Text="Start Game"  Clicked="Game_Button_Clicked"></Button>
     </StackLayout>
 

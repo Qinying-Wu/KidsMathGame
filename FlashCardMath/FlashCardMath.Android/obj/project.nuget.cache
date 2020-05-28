@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QlLCaf6SkqwYsCUBM2J9Ey6gSDqUup9VrycknXd1KP9tGAzD6+KzIRvAh0veSCDMuiID++pRQu7xY08QPFI/4w==",
+  "dgSpecHash": "N+HWQejybAAfqfFLNmTedtwiQkDhbib7x+5jUHc/sbKblxAgunpH66esodxOYTlM3VJN1gnaS/N+EUhGOOs9vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jessica Wu\\source\\repos\\KidsMathGame\\FlashCardMath\\FlashCardMath.Android\\FlashCardMath.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jessica Wu\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
+    "C:\\Users\\Jessica Wu\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "C:\\Users\\Jessica Wu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

@@ -4,13 +4,13 @@ C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\bin\De
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\bin\Debug\netstandard2.0\FlashCardMath.pdb
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\FlashCardMath.csprojAssemblyReference.cache
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\FlashCardMath.csproj.CoreCompileInputs.cache
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\FlashCardMath.AssemblyInfoInputs.cache
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\FlashCardMath.AssemblyInfo.cs
-C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\FlashCardMath.dll
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\ref\FlashCardMath.dll
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\FlashCardMath.pdb
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\View\GamePage.xaml.g.cs
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\View\StartPage.xaml.g.cs
 C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\View\StyleSheet.css.g.cs
+C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\FlashCardMath.csproj.CoreCompileInputs.cache
+C:\Users\Jessica Wu\source\repos\KidsMathGame\FlashCardMath\FlashCardMath\obj\Debug\netstandard2.0\XamlC.stamp

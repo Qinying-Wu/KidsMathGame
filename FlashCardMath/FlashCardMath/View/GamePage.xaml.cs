@@ -19,11 +19,5 @@ namespace FlashCardMath.View
             ViewModel = new GamePageVM();
             BindingContext = ViewModel;
         }
-
-        private void Skip_Button_Clicked(object sender, EventArgs e)
-        {
-            ViewModel.CurrentFC = ViewModel.Cards.Dequeue();
-            ViewModel.EnqueueCard();
-        }
     }
 }

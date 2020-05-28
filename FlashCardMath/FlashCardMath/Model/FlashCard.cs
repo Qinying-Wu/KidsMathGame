@@ -40,37 +40,13 @@
         {
             FirstOperand = first;
             SecondOperand = second;
-            Answer = CalculateAnswer();
             Operator = op;
         }
         /// <summary>
         /// function to calculate the answer after the arithmetic operation
         /// </summary>
         /// <returns>the answer of the arithmetic operator</returns>
-        public int CalculateAnswer()
-        {
-            int ans = 0;
-            switch (Operator)
-            {
-                case (int)OperatorList.add: //add
-                    OperatorSymbol = "+";
-                    ans = FirstOperand + SecondOperand;
-                    break;
-                case (int)OperatorList.subtract: //subtract
-                    OperatorSymbol = "-";
-                    ans = FirstOperand - SecondOperand;
-                    break;
-                case (int)OperatorList.multiply: //multiply
-                    OperatorSymbol = "X";
-                    ans = FirstOperand * SecondOperand;
-                    break;
-                case (int)OperatorList.divide://divide
-                    OperatorSymbol = "/";
-                    ans = FirstOperand / SecondOperand;
-                    break;
-            }
-            return ans;
-        }
+
     }
 
 }

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K7iWmJQit4wohVJGxYmGQDbdgs/vc33TOZ8eO22srY1KpS7YqZpdRabTHJiU7hc18xVXaqUX58pmYlCd/9wioA==",
+  "dgSpecHash": "rGGvXuBQHn0QF6rTJY66MYqrHiQaKh0x2sm/hJ2oAhjAVV2mGntvfF9dkaIOYTkldeaxGBa/z1rc+i3rF33Gnw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jessica Wu\\source\\repos\\KidsMathGame\\FlashCardMath\\FlashCardMath.iOS\\FlashCardMath.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jessica Wu\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
+    "C:\\Users\\Jessica Wu\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "C:\\Users\\Jessica Wu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"

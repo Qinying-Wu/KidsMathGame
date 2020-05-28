@@ -8,50 +8,31 @@
              x:Class="FlashCardMath.View.GamePage">
     <ContentPage.Content>
         <StackLayout>
+            <Label BackgroundColor="LemonChiffon" FontSize="Medium" Text="{Binding Score, StringFormat='Points Scored: {0}'}"/>
             <ContentView BackgroundColor="LightCoral" HeightRequest="400">
                 <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="0" FontSize="Header" TextColor="White" Text="{Binding CurrentFC.FirstOperand, Mode=OneWay}"></Label>
                     <Label Grid.Column="1" FontSize="Header" Text="{Binding CurrentFC.OperatorSymbol, Mode=OneWay}"></Label>
                     <Label Grid.Column="2" FontSize="Header" TextColor="White" Text="{Binding CurrentFC.SecondOperand, Mode=OneWay}"></Label>
                     <Label Grid.Column="3" FontSize="Header">=</Label>
-                    <Label Grid.Column="4" FontSize="Header" Text="{Binding InputAnswer, Mode=OneWay}"></Label>
+                    <Label Grid.Row="1" HorizontalTextAlignment="Center" Grid.ColumnSpan="5" FontSize="Header" TextColor="White" Text="{Binding InputAnswer, Mode=OneWay,TargetNullValue='_'}"></Label>
+
                 </Grid>
-               
             </ContentView>
-            <Button BackgroundColor="PowderBlue" TextColor="SlateGray" CornerRadius="3" Text="Skip Current Card" Clicked="Skip_Button_Clicked"></Button>
-            <Entry x:Name="numInput" Text="{Binding InputAnswer, Mode=OneWayToSource}" Keyboard="Numeric" ClearButtonVisibility="WhileEditing"/>
-            <!--<Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Button Grid.Row="0" Grid.Column="0" Text="1" />
-                <Button Grid.Row="0" Grid.Column="1" Text="2"/>
-                <Button Grid.Row="0" Grid.Column="2" Text="3"/>
-                <Button Grid.Row="1" Grid.Column="0" Text="4"/>
-                <Button Grid.Row="1" Grid.Column="1" Text="5"/>
-                <Button Grid.Row="1" Grid.Column="2" Text="6"/>
-                <Button Grid.Row="2" Grid.Column="0" Text="7"/>
-                <Button Grid.Row="2" Grid.Column="1" Text="8"/>
-                <Button Grid.Row="2" Grid.Column="2" Text="9"/>
-                <Button Grid.Row="3" Grid.Column="1" Text="0"/>
-                <Button Grid.RowSpan="4" Grid.Column="3" Text="Enter"/>
-            </Grid>-->
+            <Button BackgroundColor="PowderBlue" TextColor="SlateGray" CornerRadius="3" Text="Skip the Current Card" Command="{Binding SkipCommand}"></Button>
+            <Entry x:Name="numInput" Text="{Binding InputAnswer, Mode=TwoWay}" Keyboard="Numeric" ReturnType="Done" ReturnCommand="{Binding EvaluateAnswer}" ClearButtonVisibility="WhileEditing"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
